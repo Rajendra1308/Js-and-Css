@@ -1,0 +1,102 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    
+    height: 8vh;
+    background-color: black;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+header{
+    background-color: black;
+    height: 6vh;
+}
+header nav ul  a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 2px 13px 2px 13px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    
+}
+header nav ul a:hover{
+    color: rgb(233, 196, 144);
+    font-weight:lighter;
+}
+header nav ul{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    color: bisque;
+    align-items: center;
+    font-family:'Century Gothic';
+    padding: 0px 12px;
+    order: 0;
+
+}
+
+.container{
+    
+min-height: 100vh;
+}
+.searchbar{
+    display: flex;
+    width: 30vw;
+    height: 25px;
+    align-items: center;
+    font-family: 'Century Gothic';
+    margin: 1.5px 391px 1.5px  530.5px;
+    border: 2px  solid rgb(147, 149, 156);
+    border-width:thick ;
+    border-radius:11% ;
+
+
+}
+.logo{
+    order: -1;
+}
+.bg{
+    display: flex;
+    margin: 1vh 34vh 15vh 50vh;
+    height: 65vh;
+    z-index: 1;
+    /* background-color: red; */
+    /* visibility: hidden; */
+}
+.items{
+    width: 13vw;
+    margin: 0px 104px;
+    background-color: white;
+    color: black;
+    border-radius: 6%;
+    border-width: thick;
+    border: 3.5px solid darkgray;
+}
+ .list1  li{
+    margin: 2px 45px;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+    list-style: none;
+}
+.listItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: center;
+}
+#one{
+
+    margin: 19px 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
